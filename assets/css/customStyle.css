@@ -1,0 +1,86 @@
+body {
+    overflow-x: hidden;
+}
+
+.top_app_sticky {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.dwld_app {
+    margin: 10px 0;
+}
+
+.top_app_sticky h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #351350;
+    margin-bottom: 0;
+}
+
+.dwld_app .app_dwn {
+    color: #fff !important;
+    border: 1px solid #fff;
+    background: #000;
+    margin: 5px 0;
+    display: flex;
+    padding: 8px 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.app_dwn i {
+    font-size: 30px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.app_dwn h4 {
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.dwld_app .app_dwn h4 span {
+    font-size: 10px !important;
+    line-height: 12px;
+}
+
+.dwld_app .app_dwn p {
+    font-size: 16px !important;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.whatyouget-icon {
+    margin-bottom: 20px;
+}
+
+#sticky-wrapper .bookform.mobile-form {
+    box-shadow: 0px 0 10px 0px rgb(0 0 0 / 50%);
+}
+
+@media screen and (max-width:991px) {
+    .header {
+        padding: 10px 0;
+    }
+    .top_app_sticky h5 {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    .dwld_app .app_dwn {}
+    .app_dwn i {
+        font-size: 20px;
+    }
+    .dwld_app .app_dwn h4 span {
+        font-size: 8px !important;
+        line-height: 10px;
+    }
+    .dwld_app .app_dwn p {
+        font-size: 14px !important;
+        line-height: 15px;
+    }
+    .p-4 {
+        padding: 1.5rem 0!important;
+    }
+}

@@ -1,0 +1,302 @@
+@media (max-width:991px){
+/*general*/
+.content {
+	padding: 50px 0;
+}
+#right {
+	order: 1;
+	padding-left: 0;
+	padding-right: 0;
+}
+#main-content {
+	order: 2;
+}
+#right .moduletable {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+/*blog*/
+.blog h2 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.title-here {
+	text-align: center;
+}
+.page-header h2, .page-header h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.title-here h2 {
+	font-size: 25px;
+}
+.item-page h3 {
+	font-size: 25px;
+}
+.item-page h4 {
+	font-size: 25px;
+}
+.blog-item-inside img, .item-page img {
+	max-width: 100%;
+}
+/*cars page*/
+.col-lg-55 {
+	flex: 0 0 100%;
+	max-width: 0 0 100%;
+	-ms-flex: 0 0 100%;
+}
+.duration img {
+	max-width: 40px;
+	margin: 20px auto 20px;
+	transform: rotate(90deg);
+}
+.car-actions .btn {
+	display: block;
+	width: 100%;
+}
+.car-standard {
+	border-right: none;
+}
+.car-item {
+	margin: 0 0 50px;
+}
+.car-item::before {
+	display: none;
+}
+.car-standard{
+	position: relative;
+	padding: 20px 0;
+	text-align: center;
+}
+.car-standard ul {
+	position: relative;
+}
+.car-standard li::before {
+	content: " ";
+	width: 20px;
+	height: 20px;
+	position: relative;
+	background: url(/images/graphics/cl-check.svg) no-repeat scroll center/contain transparent;
+	margin-left: 0;
+	display: inline-block;
+	left: -20px;
+}
+.car-standard li {
+	padding-left: 20px;
+}
+.car-hover-left {
+	border-right: none;
+}
+.free-item {
+	padding: 20px 0;
+	clear: both;
+	display: block;
+	height: auto;
+}
+.progress-title {
+	visibility: hidden;
+}
+.progress-title.active {
+	visibility: visible;
+}
+.row-switch {
+	text-align: center;
+}
+.switch-text p {
+	margin-top: 0px;
+}
+.switch-text label {
+	margin-top: 10px;
+}
+.switch-toggle {
+	margin-top: 20px;
+}
+#options-pagePrev, #sendPrev, #protections-pagePrev {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	background: none;
+	color: #1d87d2;
+	border: 1px solid #1d87d2;
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+.carForm #send {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#options-pagePrev:hover , #sendPrev:hover, #protections-pagePrev:hover {
+	color: #fff;
+	border: 1px solid #023d91;
+}
+.btn-group button.btn, .view-rsform #send {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	float: none;
+	margin: 10px 0;
+	
+}
+.view-rsform #send{
+	margin-top: 20px;
+}
+.carForm .form-group {
+	padding-left: 0;
+	padding-right: 0;
+}
+.protection-row li {
+	padding-left: 25px;
+}
+.contact-half-left {
+	order: 2;
+}
+.contact-half-right {
+	order: 1;
+}
+.contact-half-right {
+	padding-left: 0;
+	padding-right: 0;
+}
+.options-half-right, .protection-half-right {
+	display: none;
+}
+.car-spec {
+	margin: 0 5px;
+}
+.car-image {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.moduletable.related {
+	max-width: 90%;
+	margin: auto;
+}
+.protection-row .switch-text span {
+	display: block;
+}
+
+
+
+}
+
+@media (max-width:767px){
+
+}
+
+@media (max-width:575px){
+.progress-titles, .progress {
+	display: none;
+}
+.form-group h2 {
+	padding-top: 20px;
+	font-size: 29px;
+}
+.date-row {
+	padding-top: 20px;
+}
+.car-item {
+	padding: 50px 0px 50px;
+}
+.car-images .owl-prev {
+	left: -10px;
+}
+.car-images .owl-next {
+	right: -10px;
+}
+.car-image {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.car-spec {
+	font-size: 13px;
+}
+.car-spec:last-child {
+	font-size: 10px;
+}
+.car-title h3 {
+	font-size: 24px;
+}
+.car-standard li {
+	font-size: 16px;
+}
+.protection-row li {
+	font-size: 14px;
+}
+.protection-row li {
+	padding-left: 0;
+}
+.protection-row li::before {
+	position: relative;
+	left: unset;
+	float: left;
+}
+span.or {
+	display: none;
+}
+
+}
+
+@media (max-width:380px){
+
+}
+
+@media (min-width:992px) and (max-width:1350px){
+#right a {
+	font-size: 15px;
+}
+.car-image {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.car-standard li {
+	font-size: 14px;
+	padding-left: 60px;
+	line-height: 18px;
+}
+.car-standard li::before {
+	left: 40px;
+}
+
+.free-svg {
+	width: 40px;
+}
+.free-content h3 {
+	font-size: 14px;
+}
+.free-content p {
+	font-size: 12px;
+	line-height: 12px;
+}
+.car-detail-item {
+	font-size: 13px;
+}
+
+
+}
+
+@media (min-width:1351px) and (max-width:1600px){
+
+.tab-content .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.cars-row .col-12 {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+
+}
+
+@media (min-width:1150px) and (max-width:1350px){
+.free-content h3 {
+	font-size: 16px;
+}
+.free-content p {
+	font-size: 14px;
+	line-height: 14px;
+}
+.car-detail-item {
+	font-size: 14px;
+}
+}

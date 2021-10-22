@@ -1,0 +1,600 @@
+
+	
+.col-lg-55 {
+	flex: 0 0 45.8%;
+	max-width: 0 0 45.8%;
+	-ms-flex: 0 0 45.8%;
+}
+
+
+
+@media (max-width:991px){
+ .mobile-form{
+	display: none;
+}
+.is-sticky .mobile-form {
+	display: block;
+}
+/*slide*/
+.homepage .slide {
+	position: relative;
+	height: 70vh;
+	height:calc(var(--vh, 1vh) * 70);
+
+}
+.reviews-sum {
+	margin-top: 20px;
+
+}
+.home-search .col {
+	flex: 0 0 100%;
+}
+/*general*/
+.container {
+	padding-left: 50px;
+	padding-right: 50px;
+} 
+.carousel-container{
+	padding-left: 0;
+	padding-right: 0;
+}
+/*why*/
+#why h2 {
+	font-size: 50px;
+}
+.why-topleft {
+	left: -91%;
+	text-align: right;
+}
+.why-topright {
+	right: -80%;
+	text-align: left;
+}
+.why-bottomleft {
+	left: -85%;
+	text-align: right;
+}
+.why-bottomright {
+	right: -90%;
+	text-align: left;
+}
+.why-tourists {
+	top: 10%;
+}
+.why-item {
+	padding-top: 20px;
+}
+.why-2 .custom {
+	margin-left: 0;
+}
+.why-3 .custom {
+	margin-left: 0;
+}
+.why-car {
+	bottom: -150px;
+	width: 55%;
+}
+/*what you get*/
+.whatyouget {
+	padding-bottom: 0;
+}
+.thisis-desc {
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+.what-mobile {
+	overflow: hidden;
+}
+
+/*cars*/
+.cars {
+	padding-top: 50px;
+}
+.tree-left {
+	left: 0;
+	height: 60%;
+	bottom: 120px;
+}
+.tree-center {
+	display: none;
+}
+.tree-right {
+	height: 60%;
+	right: 0;
+	bottom:120px;
+}
+.small-cloud {
+	width: 120px;
+}
+.big-cloud {
+	width: 170px;
+	left: 50%;
+}
+.big-cloud-right{
+	display: none;
+
+}
+.small-cloud-right {
+	width: 120px;
+	right: 0%;
+}
+/*grid*/
+#three-items {
+	padding: 50px 0;
+}
+.grid {
+	padding: 50px 0 50px;
+}
+.grid-even .grid-left {
+	padding-right: 15px;
+}
+.grid-odd .grid-right {
+	padding-left: 15px;
+}
+.grid h2 {
+	color: #023d91;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.insurance-right {
+	order: 1;
+}
+.insurance-left {
+	order: 2;
+}
+.grid-left-svg {
+	text-align: left;
+	left: -85%;
+	width: 100%;
+	height: 100%;
+}
+.grid-right-svg {
+	text-align: left;
+	left: 90%;
+	width: 100%;
+	height: 100%;
+}
+.grid-right-bottom-svg {
+	text-align: left;
+	left: 50%;
+	bottom: -50vw;
+	width: 100%;
+}
+/*reviews*/
+body.site .uk-grid-width-xlarge-1-3 > * {
+	width: calc(100% - 40px);
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.reviews-panel {
+	margin: auto;
+}
+.saying {
+	padding: 50px 0 50px;
+}
+.saying-animate.animate-left img {
+	height: 80%;
+}
+.saying-animate.animate-right img {
+	height: 70%;
+}
+.saying .reviews-relative {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.saying .reviews-arrows {
+	order: 2;
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.uk-slider-container {
+	order: 1;
+	width: 100%;
+}
+/*blog*/
+
+
+.services {
+	padding: 100px 0 50px;
+}
+.blog-right-svg {
+	text-align: left;
+	left: 90%;
+	height: 100%;
+	width: 100%;
+}
+.blog-left-svg {
+	text-align: right;
+	left: -90%;
+	height: 100%;
+	width: 100%;
+}
+
+/*locations*/
+.places {
+	padding: 0px 0 100px;
+}
+.carouselTicker__item {
+	width: 50vw;
+	min-width: 50vw;
+}
+/*offers*/
+.offers {
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+.offers-inner {
+	padding-top: 100px;
+}
+.surf {
+	position: absolute;
+	top: -9vw;
+	width: 50vw;
+	left: 0;
+}
+.dive {
+	width: 15vw;
+}
+/*newsletter*/
+.newsletter {
+	padding: 100px 50px 100px;
+}
+.newsletter-right {
+	margin-top: 100px;
+}
+.nl-left {
+	width: 100%;
+	text-align: right;
+	left: -90%;
+	height: 100%;
+}
+.nl-right {
+	text-align: left;
+	left: 90%;
+	width: 100%;
+	height: 100%;
+}
+
+/*footer*/
+.logos-bottom {
+	padding-top: 50px;
+}
+.footer-3, .footer-2 {
+	margin-top: 50px;
+}
+
+}
+
+@media (max-width:767px){
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.why-topright {
+	right: -85%;
+}
+.why-tourists {
+	top: 7%;
+}
+.why-bottomright {
+	right: -95%;
+}
+.why-item .icon {
+	display: block;
+	float: none;
+	margin: 0 auto 20px;
+}
+#why h3, #why p, .why-item .icon {
+	text-align: center;
+}
+.why-item {
+	padding-top: 0;
+}
+#ditem p {
+	max-width: 90%;
+	margin: auto;
+}
+.cars-title p {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.saying-animate.animate-left img {
+	left: -35%;
+}
+.saying-animate.animate-right img {
+	right: -40%;
+}
+.logos-bottom {
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+.footer-3, .footer-2 {
+	margin-top: 0;
+}
+
+
+}
+
+@media (max-width:575px){
+.mobile-toogle span {
+	display: none;
+}
+h1 {
+	font-size: 25px;
+}
+#why h2 {
+	font-size: 40px;
+}
+#why .second-why-title {
+	font-size: 120%;
+}
+.why-topright {
+	top: 0;
+	right: -90%;
+}
+.why-tourists {
+	top: -6%;
+	width: 35%;
+}
+.why-item {
+	padding-top: 10px;
+}
+.why-bottomleft {
+	display: none;
+}
+.why-car {
+	bottom: -100px;
+}
+.why-car {
+
+	width: 65%;
+}
+.whatyouget h2 {
+	font-size: 35px;
+}
+.whatyouget {
+	padding-top: 100px;
+}
+.row.cars-items {
+	margin: 0;
+}
+.tree-right, .tree-left {
+
+	width: 100%;
+}
+.tree-right {
+	display: none;
+}
+.tree-left {
+	left: 0;
+	height: 60%;
+	bottom: 120px;
+}
+
+
+.services {
+	padding: 100px 0 0px;
+}
+.saying-buttons a {
+	margin: 10px 10px;
+}
+.places {
+	padding: 0px 0 0px;
+}
+.places-title p {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.newsletter .rsform-block-register {
+	margin-top: 20px;
+}
+.rsform-block-social img {
+	margin-top: 0;
+}
+.offers-outer {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.offers h2 {
+	font-size: 24px;
+}
+.offers-inner {
+	padding-top: 50px;
+}
+.newsletter h2 {
+	font-size: 24px;
+}
+.newsletter h3 {
+	font-size: 18px;
+}
+.newsletter-right {
+	margin-top: 50px;
+}
+.carouselTicker__item {
+	width: 90vw;
+	min-width: 90vw;
+}
+.eot-number {
+	font-size: 12px;
+	margin-left: 0;
+	color: #023d91;
+}
+
+#picktimeModal, #droptimeModal, #picklocationModal, #droplocationModal, #PickDateModal, #DropDateModal  {
+	max-width: 95%;
+	width: 95%;
+	margin: auto;
+}
+.is-sticky .book-mobile-btn.btn {
+	font-size: 12px;
+}
+.whatyouget h2 {
+	font-size: 29px;
+}
+
+
+}
+
+@media (max-width:380px){
+
+}
+
+@media (min-width:992px) and (max-width:1350px){
+.bookform .container::before{
+	display: none;
+}
+.container {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.three-items .container, .newsletter .container {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.menu a {
+	margin: 0 18px;
+}
+.home-search .btn {
+	font-size: 13px;
+}
+#from, #to {
+	font-size: 13px;
+}
+#date-from, #date-to {
+	font-size: 13px;
+}
+#time-from, #time-to {
+	font-size: 13px;
+}
+.home-search #time-from, .home-search #time-to {
+	padding-left: 10px;
+}
+.why-topright {
+	right: -5%;
+}
+.why-topleft {
+	left: -5%;
+}
+.why-bottomleft {
+	left: -30%;
+}
+.why-bottomright {
+	right: -25%;
+}
+.why-tourists {
+	top: 25%;
+}
+#ditem h3 {
+	font-size: 20px;
+}
+.cars {
+	padding-top: 20px;
+}
+.grid-right-svg {
+	text-align: left;
+	width: 100%;
+	left: 95%;
+}
+.grid-left-svg {
+	width: 100%;
+	text-align: right;
+	height: 100%;
+	left: -90% !important;
+}
+.grid-right-bottom-svg {
+	bottom: -40%;
+}
+.saying-animate.animate-left img {
+	height: 80%;
+}
+.saying-animate.animate-right img {
+	height: 70%;
+}
+.blog-left-svg {
+	text-align: right;
+	width: 100%;
+	height: 100%;
+	left: -90% !important;
+}
+.blog-right-svg {
+	text-align: left;
+	width: 100%;
+	left: 90%;
+}
+.services {
+	padding: 200px 0 80px;
+}
+
+.carouselTicker__item {
+	width: 35vw;
+	min-width: 35vw;
+}
+.offers {
+	margin-bottom: 100px;
+}
+.surf {
+	width: 40vw;
+}
+.dive {
+	right: 20px;
+	width: 10vw;
+}
+.nl-left {
+	text-align: right;
+	width: 100%;
+	left: -93% !important;
+}
+.nl-right {
+	width: 100%;
+	text-align: left;
+	left: 90%;
+}
+.newsletter .rsform-block-register {
+	margin-top: 20px;
+}
+#register {
+	font-size: 13px;
+}
+.rsform-block-social img {
+	margin-top: 25px;
+}
+.footer-3 a {
+	clear: both;
+	display: block;
+}
+
+
+}
+
+@media (min-width:1351px) and (max-width:1600px){
+.saying-animate.animate-left img {
+	height: 80%;
+}
+.saying-animate.animate-right img {
+	height: 70%;
+}
+
+.nl-left {
+	left: -430px!important;
+}
+.nl-right {
+	right: -450px!important;
+}
+.newsletter {
+	padding: 300px 0 150px;
+
+}
+}
+@media (min-width:992px){
+.offers-inner .col-12 {
+	max-width: calc(100% - 200px);
+}
+}
+
+
+
+
+https://www.bluetechnologies.gr/el/
